@@ -1,0 +1,41 @@
+{
+	"geode": "3.7.2",
+	"gd": {
+		"win": "2.206"
+	},
+	"id": "iandyhd3.openrgb_support",
+	"name": "RGB Dash",
+	"version": "v0.1.0-alpha",
+	"developer": "iAndyHD3",
+	"description": "",
+	"settings": {
+		"color-1-type": {
+			"description": "The level's color id used to set device color. Color 1 needs to be set to \"ColorID\" to work",
+			"default": "BG",
+			"name": "Color 1",
+			"type": "string",
+			"one-of": ["BG", "MG2", "MG", "Ligther", "G2", "LBG", "P2", "P1", "Obj", "3DL", "Line", "G1", "ColorID", "Disabled"]
+		},
+		"color-1-id": {
+			"type": "int",
+			"max": 9999,
+			"min": 0,
+			"name": "Color Channel 1 ID",
+			"default": 1
+		},
+		"color-2-type": {
+			"default": "Disabled",
+			"name": "Color 2",
+			"type": "string",
+			"one-of": ["BG", "MG2", "MG", "Ligther", "G2", "LBG", "P2", "P1", "Obj", "3DL", "Line", "G1", "ColorID", "Disabled"]
+		},
+		"color-2-id": {
+			"description": "The level's color id used to set device color. Color 2 needs to be set to \"ColorID\" to work",
+			"type": "int",
+			"max": 9999,
+			"min": 1,
+			"name": "Color Channel 2 ID",
+			"default": 1
+		}
+	}
+}
