@@ -24,3 +24,7 @@ Great levels to test:
 - Tiny Tunes
 - Electrodynamix
 - Nine Circles
+
+# Support/Discussion
+
+[Discord Server](https://discord.gg/VUVJS46CAz)

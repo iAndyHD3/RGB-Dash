@@ -7,6 +7,10 @@
 	"name": "RGB Dash",
 	"version": "v0.1.0-alpha",
 	"developer": "iAndyHD3",
+	"links": {
+		"source": "https://github.com/iAndyHD3/RGB-Dash",
+		"community": "https://discord.gg/VUVJS46CAz"
+	},
 	"description": "",
 	"settings": {
 		"color-1-type": {
